@@ -1,0 +1,60 @@
+
+.grid {
+  display: flex;                       /* establish flex container */
+  flex-wrap: wrap;                     /* enable flex items to wrap */
+}
+
+.square {
+  flex: 0 0 32%;                       /* don't grow, don't shrink, width */
+  height: 100px;
+  width: 100px;
+  font-style: sans serif; 
+  margin: 0px;
+  text-align: center;
+  font-size: 75px;
+  font-family: "Arial Black", Gadget, sans-serif; 
+  background-color: white;
+}
+
+
+
+
+#a1 {
+  border-right-style: solid;
+  border-bottom-style: solid;
+}
+#a2 {
+  border-right-style: solid;
+  border-left-style: solid;
+  border-bottom-style: solid;
+}
+#a3 {
+  border-left-style: solid;
+  border-bottom-style: solid;
+}
+#b1 {
+  border-right-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+#b2 {
+  border-style: solid;
+}
+#b3 {
+  border-left-style: solid;
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+#c1 {
+  border-right-style: solid;
+  border-top-style: solid;
+}
+#c2 {
+  border-left-style:solid; 
+  border-right-style: solid;
+  border-top-style: solid;
+}
+#c3 {
+  border-left-style:solid; 
+  border-top-style: solid;
+}
